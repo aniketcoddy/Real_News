@@ -11,17 +11,17 @@ const DetailsPage = () => {
       <div className="border-[1px] flex m-7 gap-6 mx-14 flex-col  rounded-md bg-white border-[#D7D7D7] lg:p-4 p-3">
         <div className="flex justify-between">
           <h1 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#141417] line-clamps-1 font-medium font-Geist">
-            Any leads or referrals please!
+           {` Any leads or referrals please!`}
           </h1>
         </div>
         <p className="text-xs sm:text-sm md:text-base  font-Geist text-[#3F3F42] line-clamp-2 ">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
+          {`Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.
           <br /> Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s,
+          since the 1500s,`}
         </p>
         <span className="text-xs font-Geist text-[#4A94FA]">
-          #master #abroad #usa
+          {`#master #abroad #usa`}
         </span>
         <Image
           src="/NMIMS.jpg"
