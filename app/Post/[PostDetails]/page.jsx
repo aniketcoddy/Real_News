@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import { FaRegComment } from "react-icons/fa6";
 import { FiEdit } from "react-icons/fi";
@@ -59,8 +59,8 @@ const DetailsPage = () => {
 
       {/* nested comment section */}
       <div className="flex flex-col z-50">
-        <div className="absolute border-[1px] h-36 w-28 mt-20 ml-24 border-r-0 border-[#D7D7D7]"></div>
-        <div className="absolute border-[1px] h-[400px] w-28 mt-20 ml-[70px] border-r-0 border-[#D7D7D7]"></div>
+        {/* <div className="absolute border-[1px] h-36 w-28 mt-20 ml-24 border-r-0 border-[#D7D7D7]"></div>
+        <div className="absolute border-[1px] h-[400px] w-28 mt-20 ml-[70px] border-r-0 border-[#D7D7D7]"></div> */}
 
         <div className="border-[1px] flex p-3 xl:m-7 m-7 mx-7 w-[300px] xs:w-[408px] xm:w-[488px] sm:w-[582px] md:w-[708px] xl:w-[929px] 2xl:w-[1190px] 3xl:w-[1535px] rounded-md bg-white border-[#D7D7D7] lg:p-8">
           <p className="text-sm xl:text-base 2xl:text-lg ">
@@ -84,7 +84,7 @@ const DetailsPage = () => {
             this "opt-out" scheme is being implemented in the first place`}
           </p>
         </div>
-        <div className="absolute border-[1px] h-32 w-28 mt-52 ml-40 border-r-0 border-t-0 border-[#D7D7D7]"></div>
+        {/* <div className="absolute border-[1px] h-32 w-28 mt-52 ml-40 border-r-0 border-t-0 border-[#D7D7D7]"></div> */}
         <div className="border-[1px] flex p-3 xl:m-7 m-7 mx-7 w-[300px] xs:w-[408px] xm:w-[488px] sm:w-[582px] md:w-[708px] xl:w-[929px] 2xl:w-[1190px] 3xl:w-[1535px] rounded-md bg-white border-[#D7D7D7] lg:p-8">
           <p className="text-sm xl:text-base 2xl:text-lg ">
             {`Oh yes that's true. They take in a lot of people but do not have

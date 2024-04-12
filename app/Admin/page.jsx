@@ -6,11 +6,16 @@ const Admin = () => {
   // const editor = useRef(null);
 
   // const [content, setContent] = useState("  ");
-  const [postTitle, setPostTitle] = useState("");
+  // const [postTitle, setPostTitle] = useState("");
+  // const [postBrief, setPostTitle] = useState("");
+  // const [tags, setPostTitle] = useState("");
+  // const [postTitle, setPostTitle] = useState("");
+  // const [postTitle, setPostTitle] = useState("");
+  // const [postTitle, setPostTitle] = useState("");
 
-  const handleTitleChange = (event) => {
-    setPostTitle(event.target.value);
-  };
+  // const handleTitleChange = (event) => {
+  //   setPostTitle(event.target.value);
+  // };
 
   return (
     <div className="bg-[#F9F9F9] p-1  lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-3 col-start-1 col-end-3 row-start-2 row-end-3">
@@ -24,8 +29,8 @@ const Admin = () => {
               type="text"
               placeholder="Post Title"
               id="postTitle"
-              value={postTitle}
-              onChange={handleTitleChange}
+              // value={postTitle}
+              // onChange={handleTitleChange}
               className="border-[1px] border-[#D7D7D7] text-sm p-1 px-2 rounded-sm w-full"
             />
           </div>
@@ -34,8 +39,8 @@ const Admin = () => {
               type="text"
               placeholder="Post Brief"
               id="postTitle"
-              value={postTitle}
-              onChange={handleTitleChange}
+              // value={postBrief}
+              // onChange={handleTitleChange}
               className="border-[1px] border-[#D7D7D7] text-sm text-start  p-1 px-2 h-16 rounded-sm w-full"
             />
           </div>
@@ -44,28 +49,28 @@ const Admin = () => {
               type="text"
               placeholder="Tags"
               id="postTitle"
-              value={postTitle}
-              onChange={handleTitleChange}
+              // value={tags}
+              // onChange={handleTitleChange}
               className="border-[1px] border-[#D7D7D7] text-sm p-1 px-2 rounded-sm w-full"
             />
             <input
               type="text"
               placeholder="Date"
               id="postTitle"
-              value={postTitle}
-              onChange={handleTitleChange}
+              // value={Date}
+              // onChange={handleTitleChange}
               className="border-[1px] border-[#D7D7D7] text-sm p-1 px-2 rounded-sm w-36"
             />
           </div>
-          {/* <div>
-            <JoditEditor
+          <div>
+            {/* <JoditEditor
               ref={editor}
               value={content}
               tabIndex={1} // tabIndex of textarea
               onBlur={(newContent) => setContent(newContent)} // preferred to use only this option to update the content for performance reasons
               onChange={(newContent) => setContent(newContent)}
-            />
-          </div> */}
+            /> */}
+          </div>
 
           <div className="flex flex-col gap-1">
             <label
@@ -86,8 +91,8 @@ const Admin = () => {
               type="text"
               placeholder="Lesson"
               id="postTitle"
-              value={postTitle}
-              onChange={handleTitleChange}
+              // value={Lesson}
+              // onChange={handleTitleChange}
               className="border-[1px] border-[#D7D7D7] text-sm p-1 px-2 rounded-sm w-full h-36"
             />
           </div>
@@ -102,8 +107,8 @@ const Admin = () => {
                   type="text"
                   placeholder="Write comment"
                   id="postTitle"
-                  value={postTitle}
-                  onChange={handleTitleChange}
+                  // value={Comment}
+                  // onChange={handleTitleChange}
                   className="border-[1px] border-[#D7D7D7] text-sm p-1 px-2  w-full h-28"
                 />
                 <div className="border-[1px] border-[#D7D7D7] border-t-0 bg-white flex justify-end ">
@@ -121,8 +126,8 @@ const Admin = () => {
                   type="text"
                   placeholder="Write comment"
                   id="postTitle"
-                  value={postTitle}
-                  onChange={handleTitleChange}
+                  // value={reply}
+                  // onChange={handleTitleChange}
                   className="border-[1px] border-[#D7D7D7] text-sm p-1 px-2  w-full h-28"
                 />
                 <div className="border-[1px] border-[#D7D7D7] border-t-0 flex w-full justify-end">
