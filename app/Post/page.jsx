@@ -34,11 +34,11 @@ const Post = () => {
           <span className="text-xs font-Geist text-[#4A94FA]">
            {` #master #abroad #usa`}
           </span>
-          <div class="flex items-center rounded-md justify-center w-72 h-36 sm:w-[480px] sm:h-[240px]  md:w-[580px] md:h-[290px] xl:w-[780px] xl:h-[350px]  overflow-hidden relative">
+          <div className="flex items-center rounded-md justify-center w-72 h-36 sm:w-[480px] sm:h-[240px]  md:w-[580px] md:h-[290px] xl:w-[780px] xl:h-[350px]  overflow-hidden relative">
             <Image
               src="/NMIMS.jpg"
               alt="post"
-              class="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover"
               fill
             />
           </div>
