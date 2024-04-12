@@ -6,11 +6,11 @@ const Admin = () => {
   // const editor = useRef(null);
 
   // const [content, setContent] = useState("  ");
-  // const [postTitle, setPostTitle] = useState("");
+  const [postTitle, setPostTitle] = useState("");
 
-  // const handleTitleChange = (event) => {
-  //   setPostTitle(event.target.value);
-  // };
+  const handleTitleChange = (event) => {
+    setPostTitle(event.target.value);
+  };
 
   return (
     <div className="bg-[#F9F9F9] p-1  lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-3 col-start-1 col-end-3 row-start-2 row-end-3">
