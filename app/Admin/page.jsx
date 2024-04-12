@@ -1,16 +1,16 @@
 'use client'
 import React, { useMemo, useRef, useState } from "react";
-import JoditEditor from "jodit-react";
+// import JoditEditor from "jodit-react";
 
 const Admin = () => {
-  const editor = useRef(null);
+  // const editor = useRef(null);
 
-  const [content, setContent] = useState("  ");
-  const [postTitle, setPostTitle] = useState("");
+  // const [content, setContent] = useState("  ");
+  // const [postTitle, setPostTitle] = useState("");
 
-  const handleTitleChange = (event) => {
-    setPostTitle(event.target.value);
-  };
+  // const handleTitleChange = (event) => {
+  //   setPostTitle(event.target.value);
+  // };
 
   return (
     <div className="bg-[#F9F9F9] p-1  lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-3 col-start-1 col-end-3 row-start-2 row-end-3">
@@ -57,7 +57,7 @@ const Admin = () => {
               className="border-[1px] border-[#D7D7D7] text-sm p-1 px-2 rounded-sm w-36"
             />
           </div>
-          <div>
+          {/* <div>
             <JoditEditor
               ref={editor}
               value={content}
@@ -65,7 +65,7 @@ const Admin = () => {
               onBlur={(newContent) => setContent(newContent)} // preferred to use only this option to update the content for performance reasons
               onChange={(newContent) => setContent(newContent)}
             />
-          </div>
+          </div> */}
 
           <div className="flex flex-col gap-1">
             <label
