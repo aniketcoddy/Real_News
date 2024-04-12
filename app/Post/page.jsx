@@ -19,7 +19,7 @@ const Post = () => {
         <Link href="/Post/1" className="border-[1px] flex flex-col gap-3 rounded-md bg-white border-[#D7D7D7] lg:p-6 p-3">
           <div className="flex justify-between">
             <h1 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#141417] line-clamps-1 font-medium font-Geist">
-              Any leads or referrals please!
+              {`Any leads or referrals please!`}
             </h1>
             <div className="flex gap-3">
               <FiEdit className="xl:w-5 xl:h-5" />
@@ -27,12 +27,12 @@ const Post = () => {
             </div>
           </div>
           <p className="text-xs sm:text-sm md:text-base  font-Geist text-[#3F3F42] line-clamp-2 ">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
+           {` Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the <br /> industry's standard dummy
-            text ever since the 1500s,
+            text ever since the 1500s,`}
           </p>
           <span className="text-xs font-Geist text-[#4A94FA]">
-            #master #abroad #usa
+           {` #master #abroad #usa`}
           </span>
           <div class="flex items-center rounded-md justify-center w-72 h-36 sm:w-[480px] sm:h-[240px]  md:w-[580px] md:h-[290px] xl:w-[780px] xl:h-[350px]  overflow-hidden relative">
             <Image
@@ -48,7 +48,7 @@ const Post = () => {
               <p className="text-xs text-[#707680] xl:text-sm">2</p>
             </div>
             <p className="border-[1px] xl:text-sm border-[#D7D7D7] text-[#707680] font-medium  p-1 px-2 rounded-md text-xs">
-              April,24
+             {` April,24`}
             </p>
           </div>
         </Link>
