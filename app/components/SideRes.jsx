@@ -1,4 +1,4 @@
-'use client';
+'use client'
 import { MdOutlineDashboard } from "react-icons/md";
 import { FaRegUser } from "react-icons/fa";
 import { FiUserX } from "react-icons/fi";
