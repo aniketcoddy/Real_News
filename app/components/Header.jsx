@@ -7,9 +7,9 @@ import { IoMenu } from "react-icons/io5";
 
 const Header = ({ showMenu, setShowMenu ,toggleMenu}) => {
   return (
-    <header className="bg-[#fff] border-b-[1px] font-[Geist] border-gray-300 col-start-1 col-end-3 mt-2 row-start-1 row-end-2 ">
+    <header className="bg-[#fff] border-b-[1px] font-[Geist] border-gray-300 col-start-1 col-end-3  row-start-1 row-end-2 ">
       {/* product section */}
-      <div className="flex justify-between items-center px-4 ">
+      <div className="flex justify-between mt-3 items-center px-4 ">
        
         <FaRegNewspaper className="h-7 w-7 hidden lg:flex"  />
         <button onClick={toggleMenu}>

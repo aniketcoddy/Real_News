@@ -18,10 +18,10 @@ const Admin = () => {
   // };
 
   return (
-    <div className="bg-[#F9F9F9] p-1  lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-3 col-start-1 col-end-3 row-start-2 row-end-3">
-      <div className="border-[1px] flex m-7 gap-6 mx-14 flex-col  rounded-md bg-white border-[#D7D7D7] lg:p-6 p-3">
+    <div className="p-1  lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-3 col-start-1 col-end-3 row-start-2 row-end-3">
+      <div className="border-[1px] flex my-7 gap-6 mx-4 xl:m-7 xl:gap-6 xl:mx-13 flex-col rounded-md w-[330px] xs:w-[423px] xm:w-[509px] sm:w-[604px] md:w-[732px] lg:w-[982px]  xl:w-[929px] 2xl:w-[1185px] 3xl:w-[1566px] bg-white border-[#D7D7D7] lg:p-6 p-3">
         <div>
-          <h1 className="text-[#141417] text-l font-medium">Create a post</h1>
+          <h1 className="text-[#141417] text-2xl font-medium">Create a post</h1>
         </div>
         <div className="flex flex-col gap-5">
           <div>
@@ -31,7 +31,7 @@ const Admin = () => {
               id="postTitle"
               // value={postTitle}
               // onChange={handleTitleChange}
-              className="border-[1px] border-[#D7D7D7] text-sm p-1 px-2 rounded-sm w-full"
+              className="border-[1px] border-[#D7D7D7] text-lg p-1 px-2 rounded-sm  w-full"
             />
           </div>
           <div>
@@ -41,7 +41,7 @@ const Admin = () => {
               id="postTitle"
               // value={postBrief}
               // onChange={handleTitleChange}
-              className="border-[1px] border-[#D7D7D7] text-sm text-start  p-1 px-2 h-16 rounded-sm w-full"
+              className="border-[1px] border-[#D7D7D7] text-lg text-start  p-1 px-2 h-16 rounded-sm w-full"
             />
           </div>
           <div className="flex gap-4">
@@ -51,7 +51,7 @@ const Admin = () => {
               id="postTitle"
               // value={tags}
               // onChange={handleTitleChange}
-              className="border-[1px] border-[#D7D7D7] text-sm p-1 px-2 rounded-sm w-full"
+              className="border-[1px] border-[#D7D7D7] text-lg p-1 px-2 rounded-sm w-full"
             />
             <input
               type="text"
@@ -59,7 +59,7 @@ const Admin = () => {
               id="postTitle"
               // value={Date}
               // onChange={handleTitleChange}
-              className="border-[1px] border-[#D7D7D7] text-sm p-1 px-2 rounded-sm w-36"
+              className="border-[1px] border-[#D7D7D7] text-lg p-1 px-2 rounded-sm w-36"
             />
           </div>
           <div>
@@ -80,7 +80,7 @@ const Admin = () => {
               Upload file
             </label>
             <input
-              className="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 p-1  focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
+              className="block w-full text-lg text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 p-1  focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
               id="file_input"
               type="file"
             />
@@ -93,12 +93,12 @@ const Admin = () => {
               id="postTitle"
               // value={Lesson}
               // onChange={handleTitleChange}
-              className="border-[1px] border-[#D7D7D7] text-sm p-1 px-2 rounded-sm w-full h-36"
+              className="border-[1px] border-[#D7D7D7] text-lg p-1 px-2 rounded-sm w-full h-36"
             />
           </div>
 
           <div className="flex flex-col gap-3">
-            <h1 className="flex justify-end text-[#034D13] font-medium">
+            <h1 className="flex justify-end text-[#034D13] text-sm md:text-base lg:text-xl font-medium">
               Add Comment
             </h1>
             <div className=" flex flex-col gap-6">
@@ -109,12 +109,12 @@ const Admin = () => {
                   id="postTitle"
                   // value={Comment}
                   // onChange={handleTitleChange}
-                  className="border-[1px] border-[#D7D7D7] text-sm p-1 px-2  w-full h-28"
+                  className="border-[1px] border-[#D7D7D7] text-lg p-1 px-2  w-full h-28"
                 />
                 <div className="border-[1px] border-[#D7D7D7] border-t-0 bg-white flex justify-end ">
                   <div className="flex gap-5 mr-4 my-1">
-                    <button className="text-sm text-[#4E88D8]">Reply</button>
-                    <button className="text-sm text-[#F25424]">Delete</button>
+                    <button className="text-sm md:text-base lg:text-xl text-[#4E88D8]">Reply</button>
+                    <button className="text-sm md:text-base lg:text-xl text-[#F25424]">Delete</button>
                   </div>
                 </div>
               </div>
@@ -128,14 +128,14 @@ const Admin = () => {
                   id="postTitle"
                   // value={reply}
                   // onChange={handleTitleChange}
-                  className="border-[1px] border-[#D7D7D7] text-sm p-1 px-2  w-full h-28"
+                  className="border-[1px] border-[#D7D7D7] text-lg p-1 px-2  w-full h-28"
                 />
                 <div className="border-[1px] border-[#D7D7D7] border-t-0 flex w-full justify-end">
                   <div className="flex gap-5 mr-4 my-1">
-                    <button className="text-sm text-[#4E88D8] font-medium">
+                    <button className="text-sm md:text-base lg:text-xl text-[#4E88D8] font-medium">
                       Reply
                     </button>
-                    <button className="text-sm text-[#F25424] font-medium">
+                    <button className="text-sm md:text-base lg:text-xl text-[#F25424] font-medium">
                       Delete
                     </button>
                   </div>

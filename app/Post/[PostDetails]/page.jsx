@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const DetailsPage = () => {
   return (
-    <div className="bg-[#F9F9F9] p-1 font-[Geist]  lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-3 col-start-1 col-end-3 row-start-2 row-end-3">
+    <div className="p-1 font-[Geist]  lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-3 col-start-1 col-end-3 row-start-2 row-end-3">
       <div className="border-[1px] flex mt-7 gap-3 p-3 xl:m-7 xl:gap-6 mx-7 xl:mt-16 flex-col w-[300px] xs:w-[408px] xm:w-[488px] sm:w-[582px] md:w-[708px] xl:w-[929px] 2xl:w-[1190px] 3xl:w-[1535px] rounded-md bg-white border-[#D7D7D7] lg:p-8">
         <div>
           <h1 className=" text-[9px] xs:text-[10px] xm:text-[12px] md:text-lg sm:text-sm  xl:text-[22px] 2xl:text-3xl 3xl:text-[36px] 3xl:leading-[56.5px] w-72 xs:w-[372px] xm:w-[436px] sm:w-[482px] md:w-[629px] xl:w-[778px] 2xl:w-[1031px] 3xl:w-[1283px] text-[#141417]  font-normal font-Geist">

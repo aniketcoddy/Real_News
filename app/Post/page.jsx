@@ -26,7 +26,7 @@ const Post = () => {
   };
 
   return (
-    <div className="bg-[#F9F9F9] p-1 font-[Geist]  lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-3 col-start-1 col-end-3 row-start-2 row-end-3">
+    <div className=" p-1 font-[Geist]  lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-3 col-start-1 col-end-3 row-start-2 row-end-3">
       <div className="p-4 flex w-[350px] xs:w-[440px] xm:w-[530px] sm:w-[617px] md:w-[732px] xl:w-[929px] 2xl:w-[1172px] 3xl:w-[1555px] flex-col lg:mx-8  gap-6">
         <div className="flex justify-end">
           <Link href="/Admin">

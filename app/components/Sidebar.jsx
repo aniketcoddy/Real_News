@@ -12,7 +12,7 @@ import SideRes from "./SideRes";
 const Sidebar = ({ showMenu, setShowMenu }) => {
   
   return (
-    <div className="hidden lg:flex border-r-[1px] font-[Geist] border-gray-300 overflow-auto  p-6 col-start-1 col-end-2 row-start-2 row-end-3">
+    <div className="hidden lg:flex bg-white border-r-[1px] font-[Geist] border-gray-300 overflow-auto  p-6 col-start-1 col-end-2 row-start-2 row-end-3">
       <div className="flex flex-col gap-3">
         <h1 className="text-xl font-semibold">Overview</h1>
         <div className="flex flex-col gap-4">

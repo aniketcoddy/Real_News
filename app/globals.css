@@ -6,7 +6,8 @@ body {
     height: 100vh;
     display:grid;
     grid-template-columns: 275px 1fr;
-    grid-template-rows: 50px 1fr;
+    grid-template-rows: 60px 1fr;
+    background-color:#F9F9F9 ;
   }
   
   @layer utilities {
