@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import React, { useState } from "react";
 import { MdOutlineDashboard } from "react-icons/md";
 import { FaRegUser } from "react-icons/fa";

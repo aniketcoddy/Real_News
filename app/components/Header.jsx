@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import React from "react";
 import { FaRegNewspaper } from "react-icons/fa6";
 import { FaRegCircleUser } from "react-icons/fa6";
