@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Post = () => {
   return (
-    <div>
+    <div className="bg-[#F9F9F9] p-1 font-[Geist]  lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-3 col-start-1 col-end-3 row-start-2 row-end-3">
       <div className="p-4 flex font-[Geist] flex-col lg:mx-8 gap-6">
         <div className="flex justify-end">
           <Link href="/Admin">
